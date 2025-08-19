@@ -1,0 +1,363 @@
+/*=====================================================*/
+/*FONDO*/
+/*=====================================================*/
+body{
+    background-color: #C0C0C0;
+}
+
+/*=====================================================*/
+/*SEPARADOR*/
+/*=====================================================*/
+.separador{
+    height: 20px;
+    background-color: transparent;
+}
+
+/*=====================================================*/
+/*ENCABEZADO*/
+/*=====================================================*/
+#encabezado{
+    font-size: 200%;
+    background-color: brown;
+    color: black;    
+    border: 10px solid black;
+    border-radius: 40px;
+    text-align: center;
+
+    max-width: 99%;
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+@media (max-width: 768px) {
+    #encabezado{
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    #encabezado{
+        max-width: 100%;
+    }
+    #encabezado p{
+        font-size: 100%;
+    }
+}
+
+#encabezado p{
+    font-size: 150%;
+}
+
+/*=====================================================*/
+/*NOSOTROS*/
+/*=====================================================*/
+#nosotros {
+    background-color: black;
+    border-radius: 20px;
+    padding: 10px 10px;
+    max-width: 99%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+@media (max-width: 768px) {
+    #nosotros {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+#nosotros .bloque {
+    background-color: white;
+    border-radius: 10px;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 1px 5px;
+}
+
+@media (max-width: 480px) {
+    #nosotros .bloque {
+        font-size: 90%;
+    }
+}
+
+#nosotros h2{
+    font-size: 150%;
+    margin-bottom: 1px;
+}
+
+#nosotros p{
+    font-size: 135%;
+    margin-top: 1px;
+}
+
+/*=====================================================*/
+/*PROYECTOS*/
+/*=====================================================*/
+
+/*ARMAS*/
+/* ARMAS */
+#armas {
+    background-color: #303030;
+    color: white;
+    border: 10px inset rgb(255, 0, 0);
+    text-align: left;
+    padding-left: 15px;
+    max-width: 99%;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#armas img {
+    width: 20%; 
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.texto {
+    flex: 1;
+}
+
+#armas h2 {
+    font-size: 250%;
+    box-sizing: border-box;
+}
+
+#armas p {
+    font-size: 170%;
+    box-sizing: border-box;
+}
+
+/* BALAS */
+#balas {
+    background-color: #303030;
+    color: white;
+    border: 10px inset rgb(255, 0, 0);
+    text-align: left;
+    padding-left: 15px;
+    max-width: 99%;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#balas img {
+    width: 20%; 
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#balas h2 {
+    font-size: 250%;
+    box-sizing: border-box;
+}
+
+#balas p {
+    font-size: 170%;
+    box-sizing: border-box;
+}
+
+/* ACCESORIOS */
+#accesorios {
+    background-color: #303030;
+    color: white;
+    border: 10px inset rgb(255, 0, 0);
+    text-align: left;
+    padding-left: 15px;
+    max-width: 99%;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#accesorios img {
+    width: 20%; 
+    height: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#accesorios h2 {
+    font-size: 250%;
+    box-sizing: border-box;
+}
+
+#accesorios p {
+    font-size: 170%;
+    box-sizing: border-box;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    #armas img, #balas img, #accesorios img {
+        width: 100% !important; 
+        padding: 0; 
+        box-sizing: border-box;
+    }
+
+    #armas, #balas, #accesorios {
+        flex-direction: column; 
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    #armas img, #balas img, #accesorios img {
+        width: 100% !important;
+        max-width: 100%;
+        height: auto;
+        padding: 0; 
+    }
+
+    #armas h2, #balas h2, #accesorios h2 {
+        font-size: 200%; 
+    }
+
+    #armas p, #balas p, #accesorios p {
+        font-size: 150%; 
+    }
+}
+
+/*=====================================================*/
+/*CONTACTO*/
+/*=====================================================*/
+.contacto{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contacto h2{
+    margin-bottom: 10px;
+    font-size: 2rem;
+    color: #333;
+}
+
+.contacto p{
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.contacto-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contacto-form label{
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+}
+
+.contacto-form input,
+.contacto-form textarea{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contacto-form input:focus,
+.contacto-form textarea:focus{
+    outline: none;
+    border-color: #007BFF;
+}
+
+.contacto-form button {
+    padding: 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contacto-form button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 480px) {
+    .contacto{
+        padding: 15px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        font-size: 0.9rem;
+    }
+}
+
+/*=====================================================*/
+/*FOOTER*/
+/*=====================================================*/
+.footer {
+    background-color: white; 
+    border-radius: 10px; 
+    padding: 10px; 
+    max-width: 99%; 
+    margin: 20px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.footer-content {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.footer .links a {
+    margin: 0 5px; 
+}
+
+.footer .links a img {
+    width: 30px; 
+    height: 30px;
+    margin: 0.05rem;
+    color: #333; 
+    transition: transform 0.3s ease, color 0.3s ease; 
+}
+
+.footer .links a:hover i {
+    transform: scale(1.1); 
+    color: #007BFF; 
+}
+
+@media (max-width: 480px) {
+    .footer .links a {
+        display: inline-block; 
+    }
+
+    .footer .links a img {
+        width: 25px; 
+    }
+}
