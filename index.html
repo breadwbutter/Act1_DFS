@@ -1,115 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GunBrother</title>
+    <title>Adopción de Mascotas</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <div id="encabezado">
-        <h1>Bienvenido a GunBrother</h1>
-        <p>El sitio web ideal para aprender sobre el mundo armamentistico</p>
-    </div>
+    <header>
+        <h1>Adopción de Mascotas</h1>
+        <p>Encuentra a tu nuevo compañero</p>
+    </header>
 
-    <div class="separador"></div>
-
-    <section id="nosotros">
-        <div class="bloque">
-            <h2>Misión</h2>
-            <p>Nuestra misión es esparcir conocimiento sobre armas de fuego y todo lo relacionado con ellas para que las personas puedan adquirir conocimiento confiable y así puedan manipular sus armas de forma responsable y segura.</p>
-        </div>
-
-        <div class="bloque">
-            <h2>Visión</h2>
-            <p>Nuestra visión es ayudar a que en un futuro las armas de fuego dejen de ser un tema tabú en nuestra sociedad y que todos los ciudadanos honestos puedan usar estas herramientas de forma recreativa y sobre todo para la protección de su familia.</p>
-        </div>
-
-        <div class="bloque">
-            <h2>Valores</h2>
-            <p>Nuestros principales valores son la honestidad y responsabilidad, ya que sabemos que tratamos temas de suma delicadeza y que la divulgación de información de calidad puede hacer una gran diferencia para la comunidad.</p>
+    <section id="adopciones">
+        <h2>Mascotas en adopción</h2>
+        <div class="pet-list">
+            <div class="pet-card">
+                <img src="https://place-puppy.com/200x200" alt="Luna">
+                <h3>Luna</h3>
+                <ul>
+                    <li>Edad: 2 años</li>
+                    <li>Raza: Labrador</li>
+                    <li>Color: Negro</li>
+                    <li>Sexo: Hembra</li>
+                    <li>Salud: Vacunada y esterilizada</li>
+                </ul>
+            </div>
+            <div class="pet-card">
+                <img src="https://placekitten.com/200/200" alt="Milo">
+                <h3>Milo</h3>
+                <ul>
+                    <li>Edad: 1 año</li>
+                    <li>Raza: Mestizo</li>
+                    <li>Color: Blanco y naranja</li>
+                    <li>Sexo: Macho</li>
+                    <li>Salud: Vacunado, no esterilizado</li>
+                </ul>
+            </div>
+            <div class="pet-card">
+                <img src="https://placebear.com/200/200" alt="Bella">
+                <h3>Bella</h3>
+                <ul>
+                    <li>Edad: 3 años</li>
+                    <li>Raza: Pastor Alemán</li>
+                    <li>Color: Café y negro</li>
+                    <li>Sexo: Hembra</li>
+                    <li>Salud: Vacunada, requiere dieta especial</li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <div class="separador"></div>
-
-    <section id="proyectos">
-        <div id="armas">
-            <div class="texto">
-                <h2>Armapedia</h2>
-                <p>Nuestra principal función es brindarte toda la información sobre las armas de tu interés.
-                </p>
-                <p>Pistolas, revólveres, subfusiles, carabinas, rifles, fusiles, escopetas. ¡Lo que tú quieras!
-                </p>
+    <section id="tienda">
+        <h2>Productos para tu mascota</h2>
+        <div class="product-list">
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Cama para perro">
+                <h3>Cama para perro</h3>
+                <p>$30.00</p>
+                <button>Comprar</button>
             </div>
-            <img src="https://static.vecteezy.com/system/resources/previews/011/754/890/non_2x/set-of-firearms-silhouettes-vector.jpg" alt="Siluetas de armas">
-        </div>
-
-        <div class="separador"></div>
-
-        <div id="balas">
-            <div class="texto">
-                <h2>Polvorin</h2>
-                <p>Esta sección está dedicada para hablar sobre municiones, desde las más pequeñas como la 22lr, hasta la famosa calibre 50.
-                </p>
-                <p>¡Es importante que escojas la munición adecuada para el trabajo!
-                </p>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Juguete mordedera">
+                <h3>Juguete mordedera</h3>
+                <p>$8.00</p>
+                <button>Comprar</button>
             </div>
-            <img src="https://p4.wallpaperbetter.com/wallpaper/157/732/5/ammunition-weapons-wallpaper-preview.jpg" alt="Diversas municiones">
-        </div>
-
-        <div class="separador"></div>
-
-        <div id="accesorios">
-            <div class="texto">
-                <h2>Gustitos</h2>
-                <p>Le compras detalles a tu mujer y a tu auto, ¿por qué no a tu arma?
-                </p>
-                <p>Aquí hablaremos sobre la infinidad de accesorios que existen y cómo aprovecharlos al máximo.
-                </p>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/150" alt="Plato de comida">
+                <h3>Plato de comida</h3>
+                <p>$12.00</p>
+                <button>Comprar</button>
             </div>
-            <img src="https://www.stockarmas.com/wp-content/uploads/2015/08/image001.jpg" alt="Rifle con accesorios">
         </div>
     </section>
 
-    <section class="contacto">
-        <h2>¡Contactanos!</h2>
-        <form class="contacto-form" action="#" method="post">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="name" placeholder="Tu nombre" required>
-
-            <label for="email">Correo Electronico:</label>
-            <input type="email" id="email" name="email" placeholder="Tu correo electronico" required>
-
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Tu mensaje" required></textarea>
-
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
-
-    <div class="separador"></div>
-
-    <div class="footer">
-        <div class="footer-content">
-            <div class="links">
-                <a href="https://facebook.com" target="_blank" aria-label="Facebook">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAdVBMVEX///8AAAD4+Pi2trYYGBjv7+/S0tLV1dWFhYXDw8PGxsa+vr6qqqr7+/t1dXV4eHjg4OCdnZ1hYWHr6+uOjo5aWlpVVVVra2uGhoZ+fn6urq6jo6NJSUmYmJgQEBAfHx8+Pj4wMDAlJSUsLCxERERNTU03NzdHU1S7AAAGN0lEQVR4nO2d61riMBRFbWsBKXdQBFRGUd//EceKOKMW2mTvnRS/s/4bsmyTk8tpcnFhGIZhGIZhGIZhGIZhGIZhGIZh/DKGaTrv9Issy4p+d56mw9gVIpIXm9H1n+QbD3+uR5sij105lEm2uvmu9o2bXjaJXU1P5tmoRu4f4/N7mJP7x8Z6e16nZ/Qo5856B8l57Ko3YVjUtbxTXF/Frn8d6f0D4FdyOU1jS5wgH4N6e1Zt7XbmzfvOWsc2NkjS8zvQa927ek/1K5nGVvpCsaULJslTP7bWJ/OZwK9k2ZIuZy3yK8liy70xfBEKvg0BYvtdXEn9SiK3xp5cMEkWEf1S7Rt64CZabOxeBhFMkm2kiVURyK8kSmPcBBSMEjZugwpG6G9484imrH67YJKMf7tgUMU4ggFf1NCdzD8CdTeDaIKBgkbIQP+TAKG/G1UwSeQDuDTUWPQYW/UwPMxs4hTiOXGI+WAd0g61z6nj5ctyvFqO3lnOSpYuf94RGhLsxkVlX+G03aEThBvhc0H5381Uguiy4fZEMHMr6eg/CmMOCo5PpV84lqVZKgZXtu9PFu5Y2FIhCI7WTgs692GK0Ru2+TKqKd21vB1fENs+29YV71zihi2YQ4L1Qdq9SPb4dAUJ3tSW717mLVcQjBRdgSE5YmArM4/1P+BRao8pCLbCBlvyPsUyWyKYZ9FgXu5TLLElppjgU4Of8CqY9xDBVJIXlSEtJg7BXLUjA7bJevBJ5vUTTV6ORqDrh+vKUp2m9UdgjU6RdMqSymXcBUGQNRVG54VJVc7okCHIivpwylqVIRhhD3D6mke0GlWGE9yu5JkhiNdFaJgwElHxvEqlIeM1fYRroTQkvKZwT6o1JPSmGV4JqSH++QJhz15qiO/tEypRtUJNM3xABf1rskrzD6rWuof5F1L/dSC0Ifo3Q7f5qf+COrqH4f+/dVtG8V9vRjdM/ecVbobePwPPL/x/OZQhuF8KxHsnQ2QlCFutAab3ToZIlg420QcSgZ0MkRSI6kWSpgAjGidDZCkIG9VcBzKcAoZYZ/rjoACRIZKJdIcIIutFTobI+B5aNUU6cSdDoDVg4SKYIdAasLE3MsF3MkQEG+y/HqdzFoZIyEcCsYshtgKOJH8jgdjFEEutRgyRZSiXGTD2JSoybEMMR93OB1Xr0p3/6SJDmniGJ2sA7pvXlt8YzrcVFe2EmvKPtENOXnebDTmfj6gNkXhI2LRI9IbImIbTIagNkXHpeRgicws0k2aP2BDLqoFmNQfEhtAcH5uZHhAbYus0lC9+xYZYninl4ASxIbZeShm2iQ2xNW9K6pLYEMwyZVRBbIgJwnmJJVpDdP+Q8Vms1hDdA2bMgbWGaEINIytEawgnRRHqIDWs/WasFsKRllJD/MsZQsyXGuLJ7ISYLzUkfFXyCldCaYhNnfZgq7UlSsMBwRCPF0pDyoHD8GsqNKTk6uOvqdCQ870FvGgqNCR9KYsu1ugMWUcroOfM6gxpJ9WA1ZEZ8g5WAPsamSEjGH7Up6WGxNt4sBMVVIbMI7Gw4bfKkHoyBjRLFBlyD8aAor7IkHySErLmpjFkH0yHdKcaQ/q1ZkBMlBjyYuEnT60yfOULArk1CkPJ2YnexzwIDOuODvPDO+wLDEXHtPruYfANZXeXeU6F6YaSMwX30AyHkKFO0DOzfdr9QQc5oxDJY6uFcqoMiPgyL8auN4bsANoPUsX9Yy7s5Nfq0I4K8CTAvYGkE689UZ50/Qkngd8P0RHJ34nXoQa7ExFbevOHfGTpKbg3crZQMI5iUMEYL2pgwfDdTYSLV8MGjUBh4ishQ3+QQP+TSagx6i7aFc8p5WOFWmYx73cO0d9EvtwZ+Z69GdIZfSNUFzrvES46NUcZNqIEiZ/kjEOPqxi15F7uN/o7gd9jpCB4BP7NstjnTAJS7r2PC/oGKIGcdynbbXsa4FdIz3ERcwxTR7rx3yresxu02e+dPjIEmLWr/zxGvnn20nsetLX5VTB3lrwbRJsi+ZJfrZpuEj71rlrf+I6QF4u6VjlbXJ3Ru1lN2l+vZnff+9inu1lv3T/XR1dJmnf7WbZer7OiP8l/lZphGIZhGIZhGIZhGIZhGIZhGIbxzl+/KW+Srz5oCAAAAABJRU5ErkJggg==" alt="Facebook">
-                </a>
-                <a href="https://instagram.com" target="_blank" aria-label="Instagram">
-                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAilBMVEX///8AAADt7e0oKCjc3Nz4+PjT09NoaGgwMDBzc3P8/Pz39/fh4eEVFRXq6upeXl4bGxvMzMwMDAxDQ0MZGRkRERGqqqohISHAwMA4ODjGxsZMTEze3t5/f3+zs7M/Pz+KioqSkpJUVFRvb29iYmIzMzOgoKCurq6Ojo6FhYVISEijo6N8fHyampoKb5aYAAAQ8klEQVR4nO1d6baqvBJUQGZBQAQcUEDFifd/vYu6z/4cKiSBOOy1bv08R9gUJJ1Od3Wn12sDS3Lmihen5TFbLYxCc/M8WC51WZZHwwv8Pj/Cy5XjqL5LEgSHPNc047TfVWUaT9W57Vhmq2flhVmTU9OqmMlhGxYt4fvRcr0vPduRBi+lN5CUdJ9vomH4PnI3NMORfDCO3us+pjVdBHr0xi8HMZaT9cR+AT2pLAL5w+R+MUrcTBFKbxCfZl9D74rxUts6ovjZE2P5aUII8rryRMzI+aSIPs2FiDzrzNGJ159m0YzlVunC0Zpqn2ZARzJpPx/nu9GnH58J66nVit8gDj699rFCX0ktCErZ9xqYZ7gqN0Fv/Vc+4BXLI6fBKYNPPzIv5D3PSDUn+qcfmB/hid1btbZ/aQr+B2POSrD6W1PwP2hsFK3Vpx+0PWYsJtWqWtzZ9/0wHI/H0QXyPfQGPPz0ev1oPB6God9mJM3o/o25Zb5xzWoob5aH3D3HU7JqUk5i7wz1HspcIWCuPPz0cvm0LMtttjsZhevOgkQe8ZB1qRQnbEbG13MjSz1lbtuO40iSZFnWwBQUXTBNs75dfdP61rZtz9V4u3CTMRtFg7JolAzLxNCtam621M4ZbAVTcmqeR2PD8O4Xjc/lURf6xCg9+43cbmE6aryb0aJgw23DUJIom0HZ2MbCQgftYHnlftb8lPqUePUga5zRSTFp48ILx8BbNH9Il7gsxk1WRtbi98ScWaDsGyNHO8I0mjdMwnBG/vQfgWM0fI5wAq+xduQxqmdfMT5vYaY5+XnxdnFKDlkcvA9ZzyaY9p78FffgAoccdHJfEUQXAGlLfORl/PzzmPjr04cXCDLMlDgZ108/npOWwnD1tQTPFBPCY0fp428npJfRKoz1NpApug+mwy7+3BD9QUlIGcne/e9IWwr6ZuTjyIb40Y27jzgw8K8OX2pF77DH66J8l2GMsROke6S7fgLmYDBAjqODZ1h457ud8G+y71noLccrt9tjbIMkfozdzeBmAEp4PzL7GjNqxkUij86BID2vnkyDeYSPP7xxpbE9kr/G2VbXN4YwXGaPn9HG/tjivy+EB7L2XhpEWNuHURg+hX6xQ6b/2hoLjuMEuHafgLV9HmHagxKD4FT/MpjCQVp8x4bXTNGex3iYjDFcMfY/lnKwQP8r413k2+Hhhay6V3/Z0FYGP9tECQ5SWtzxTZDwQtb375dqcwIjNz/DVIEx0u0H6ACkpADu6n6tVuBMu45DvMn6FjtD3Mc/+FsStDXX12BBv+5xKn8Itkti2L/fAJolMkj5ZSJKObq+/AihJxC3f7Wtubf1Dor4X/fB8L+GX+JzV+SY4cMos+DXPp7/S0U3+Zbg04ocMXxI+JoZsqa783+laAdZfcmugrD3Awx7MbKm5zXPqhD3pziOCJiXpKBkWexa7YycNSwehpmDpuw5NCwht9sXOw0tx1anabnd7U+GYSx22SSNPcWR6H5hg+zlMTlhHsCPgnrRc5C/owvTGJuWZE8rLRk/DDc/lPN9SmWpQkN/wZO1Ryvi2feco+GbizE0puXEq1wmSfv9YRQYpdIkvTcJAaT7/e0VK/Bnwqp2d9CfF+OUWvXOPKKkbP2Rnm8b3ueRdH3x5JLAffyq9t2BtfJFBGjURcAorRomWkn6g4Tt+83e7xceMjULvD32O5tSK9WWPHoYOc8IHzLF1hSMMhuZGqO+A/jnsKMptVIW1cQ9hm4Fk9NShn6NxE8mskr1Pr5Ef62TKR3E+3bFGesSufsoHBrAjDtKLmlWD0XiZFaRH8J82166aaBUrKM9el0BnkVoyq6dXgb+edN+sbAI4VlGjFAub7C9m9PRYxzqH9DKkns9pERctmVo2vuuZW0z8BlNZ/+z7Phj2U1J6ycKeORxD4WhDi23v2ZMdkGYoVdgMbbsOCvcfH2aKGQvCLnpsxR/2nYMzUqIeHqowSFkSWeJYJOTtwO7pOAI493tsobSSZS2OGi3WqFM4jKDBkhr47QpAiukklYuBwoIJKse2Pz7bdxSjxwzakNx0qLe9wiW4c2pB2yDf+Jn2LDNaQX52IIhMAO6BhnuuR1vVegXPGNMXBSIKIGrKGs9sEDz5349wV/w8hQTXoopSHFEeQ/8a8gbh1KEf8EzZN6viNQImOGYc5rTpMVX+OFIT4Iay03E1q1gw5mE9kBAJpr1wOwcl1wvzySkh24RBqejN5/bV8zVdOUybI8Dvj0OYjhOesDCjrlmgEktItIXqWo/eCOWo8QZRbDNG5hGDIcbxDDiyTuZcbOrFq4nKmHxsZR4QfHzuGyeAuzdEH7DiMdpshvNaGSUjSNNineNuy2Zx7lBiar6G4KkFA9Dq0Go2w/zI9V3MKdGU0Qg5yh/RQxDuQe8VR6GccN+cLNn8+Ans4aZbLDbdcTQH3Vk2KTvZ68+lhrK4jnct1cwHJCV1hGP62fG5ExowOwk22Bdxgxl5pdPtqObI5/X0OC571nXLpTL78iQbGYSbr9ZIdYKJKyL4gsYpiQreJjyC6psomt0YhzvBIbAjLEytEiJoaSVqpGghGV/Hqg48Xsd7pgSQvcb/q3dBchSXB6yuWiymWG/C0PCzIl4Gzj8grTN3LB54MIZqoQKOf4IwS8IGi+f7Z0JZ7jAnshjKQcXCIUtbEF40Qyx7ra/4e+jcgOHYFCZdjuCGZq44jREdXEc8PDGmCn6J5ihhW17y4TAL0zsByYsjySYIRTo1Ha0G0FCrppNwiSWIWGQdhdxENS+LJt9sQwtpF7phwJEmza0YCxbMbEMsSp1LUBLhYV2I4Zhys6QRfNlN+iqO8KGzmBFvxAbP8iQQagwRZpNvdNa+Pug8FMwbDBwjWHLb4iH0kKIWMwsoaaX/vaEMsRlOIJUqTZaiFD9+QOEMoQPEQoZpPVHRLHwiF4AIpShiqZhIEocDn36HfUyoQyn6BlapI4xYHRkQb1MKEOk92PcxTFAQYu+Qb1MKEOk9+uqaPwPFlQZUi8TyRDuAEZd9H73QAGbNTUAK5KhtUOXiWOInBO69lwoQ6T3Y47c0gGlaNQXKJIhrHsUtlj0oJyQLgUTyhDd6/8MOfB/hhhCLQ16hNbK4megaU7vTfpyW9pBHf4IaEvfuloMMnBZJG49RHszl+r1CvXaUPR9KGjzRKgNobfpeL3nLawsk1TfQ4FQhrAPxUpUaW2MYlEn6mVCGXooTCOsbRasjaUnRIQyhE0aIlGVp0iuGtLDiWIjUTAgLKjThIRSrxv6LBfKUIJl5GI6Z5mw7jyn7685GNIXNhNW8c+EDNMBfHvPVbFdGDI8qAJTT0KGKe6XQw+1EdQvbTMzDnwMEUFv3DaJJSUiOPdkoKGkC/iIEhT+BwwiJMEZUtgPpr/rHlCcwvHPMjoEZ7lx7yWWV015TKwPYMnbiVYqYP0S3XukYAqT3COWNydabbKFfUO7NkHDbcn6a5a9p2jFEEw/dW0nSRIdM7034aovLNzzOxmbKX5tbB6vcIaEDr6jDisGqQsGW1ZLOEOCrWHTL+FHJEhyI7Y7iteXknoU5y3dU5NUlMC48RTPkNguDpebUwmSWpeNGDXHBIZg+WFWshMPTmrTBdwkdebu54zmGSrZx520+sRW9U+NuBgIViSCzKV0L6hGgKngK9acCWFpRz4EgLU2hZ0he1WQQ2xU1c+5You2QWzM9tg+vuFpmKuCOCq7PHJJls5+Auqg4URXnx5F/IeX1K41HkN3Yjys196S67p4lp6XMMQN7X5vtLXpHKVp0y1kDsUqZBj1wATnqpL1Git5D5PmA75MaVo09ux56k7OyTDUYR0wzzbWqgiezc9fCCrUCv9KbyCllKL1giefNUd1wLDSecRVj489iRuOG62Eg1WK9wHlSOWGA8YAYLU6rsfn6ziAhdm3iJLZIlVuhqtpx5m7lKmdFfhKxAgMgRnjZIjb+T3Al4N8XRiLGidDyw8bhuMM/YrzOVDXiAPqbTLcckbnG/oZd4DPm61DjdSiXEz3lkm7JnvN4K7dQC+6ZgjSrSHp7DkiBkfGMzQ5oHHvTxBD2RXVRSnt2onuiSB/Hgu15NULyLBFbY8pdqD6bXrCo05YNUO0mhUtIoImqSq4FcFWJ4Whw7aTPZautEnIm1Nx57G3ayeO0v/JDsqPWkoORLWL0lvWgqPIWFBhCVlLUYWdiZiMRYt2BReg3PFhAg+QaK0ytNLObc3krLV4DMkJZ3EPKbY76JnVxn46VPg5p8d4C9i/dAojgnIHleHg2MHgyKcuWgfYxlOB4bJudQXSvqWbGvEG6B5A6JQMu113Uxma9om+MXrCKI9b9Lu8BTLlxQB3LO8qOLDUxYaPY+SmXXUc8Hw8A9do+U3HkzNyVI6NB0s/8DupTuc/Cft0nOp/R+9aiC7Gjk9ME3K0nigiqt5gS6d9rzeHJalidJSSmmZucygmWEymgvThFfhLflb7IejbJsIk25aaVid3CV5juMmL3WQq7vAz5H+eezygYH9/LEyyfYalxtvdwijWeX7u7jnLXc047avUE3tqFnKnzi2X8ZFdLzmTbGDPvRqq/ZJD66Aq9azZNEu0OxdWDvo+qMjQXEIhMH30JceuccA8Ih4XcTjs/9CtU9AngFtGXMThDmwI8yWHA7ID6m6vvVawiIU7oPhpeGgoLi95DxzrnH3J4XmssGCXgh9NCGQvopfOOwEdl39HjeKOT/uOW5k3I4ZB9x+1hAVVMX9rmGJj8k/GYU6gc0zvQ/FFUCGF3xoNrIUVUx7yHsAOCLe6WxjJ7do9753AnfpuSj7xSZHLP+O5ET7hzS5XwQEH46+437g7nn+74GE5RdQyf/BuEJos35VvgSPozxB0lOWLYe5wWO8uRwg3+ucDZ77jgPVmoONl+k+yVJLat3tY8eUgNft9KPwgHoXz9VMRO6TPwi4zIzDkPs7mzSCq6Q+PE8wjRajbHRD2LpBagPf9J1EjobvtmeIX76OQGvEKcKKCQozAy9kHnp0JJCNTG1JQvW8SWmnXGDKeNfJmmCU59wNP/yOsiWf4BTy79bNQdmQBD8F4TBv0zMHxy9wbK9YaEpQ7HKBo1N33tfiLhqrlkQtQ+g3dXHGd+A1HBuX9OyCpjfyadOpk23SBP2s6yfVNsOzYoKjDm5IuSN13i1DWSqfpPPvXwrQkb7GkSVkblZUm/cDi0cbN4u5J9xaQ1GMR0EUelCIb2BDx+UsmB21Vem+blpIaV0a+1Cmj84IlLadkk6vRnmnm63Myd5dVx2OZxp7nKZfjDaV7WAMirIefOpfTEesbxWk6OW6zbL84FWt3xkbuDIZTIeeUApEn+MNhJOub5XI2m+VujbV2j8Ig4+Gn6/P1bn2jIEl0ORoPeYVHMkvObE49d/F7obMdPqH+WYrMp9A5Lzka9vXYsKd1Hdhe59ux5CkDkxaNJXdfCZ7TLmtYWyFH3b8RBm8iyZz+qckY0Q88fcZ8J7rQ53Vw28n7rckf+YzJrrX6R91zqGA/hUhLu0gO4jXD8dmfhB9UXXMrqfuK6klBGB0yAbkjyzPk77Q50awUFHKwlF3wdR6ArxexwJCKZU9pp6C/F0O3FKJ+v4WkxHtxBYadIBcT9TWhTUuNJ6v8o8Y1XJ62ovXhTyzT485wg3cbHz9Kcm1fldP3xKWl+mNWq4VRaOs8nwXLZKPLURSNh8Nh6F/QisQVYX2X+mayridJcDgL+wvjtM+OL/50GKbleHF6zFYnTaupJptkI48uaENxfLkyqoklhzx3i2K/qybxVLG6qST/By68RjYbQe8AAAAAAElFTkSuQmCC" alt="Instagram">
-                </a>
-                <a href="https://youtube.com" target="_blank" aria-label="YouTube">
-                    <img src="data:image/png;base64,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" alt="YouTube">
-                </a>
-            </div>
-            <p class="footer-text">© Todos los derechos reservados 2025</p>
-        </div>
-    </div>
-    
-
-
-
+    <footer>
+        <p>&copy; 2024 Adopción de Mascotas</p>
+    </footer>
 </body>
 </html>
