@@ -53,6 +53,47 @@ header h1 {
     border-radius: 4px;
 }
 
+.hidden {
+    display: none;
+}
+
+#add-pet-button {
+    display: block;
+    margin: 0 auto 1rem auto;
+    padding: 0.5rem 1rem;
+    background-color: var(--verde);
+    color: var(--blanco);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#add-pet-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    max-width: 400px;
+    margin: 1rem auto;
+}
+
+#add-pet-form input,
+#add-pet-form select,
+#add-pet-form button {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#seguimiento {
+    background-color: var(--celeste);
+    padding: 2rem 1rem;
+}
+
+#seguimiento h2 {
+    text-align: center;
+    color: var(--verde);
+}
+
 #tienda {
     background-color: var(--verde);
     color: var(--blanco);

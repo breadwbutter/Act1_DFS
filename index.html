@@ -14,41 +14,27 @@
 
     <section id="adopciones">
         <h2>Mascotas en adopción</h2>
-        <div class="pet-list">
-            <div class="pet-card">
-                <img src="https://place-puppy.com/200x200" alt="Luna">
-                <h3>Luna</h3>
-                <ul>
-                    <li>Edad: 2 años</li>
-                    <li>Raza: Labrador</li>
-                    <li>Color: Negro</li>
-                    <li>Sexo: Hembra</li>
-                    <li>Salud: Vacunada y esterilizada</li>
-                </ul>
-            </div>
-            <div class="pet-card">
-                <img src="https://placekitten.com/200/200" alt="Milo">
-                <h3>Milo</h3>
-                <ul>
-                    <li>Edad: 1 año</li>
-                    <li>Raza: Mestizo</li>
-                    <li>Color: Blanco y naranja</li>
-                    <li>Sexo: Macho</li>
-                    <li>Salud: Vacunado, no esterilizado</li>
-                </ul>
-            </div>
-            <div class="pet-card">
-                <img src="https://placebear.com/200/200" alt="Bella">
-                <h3>Bella</h3>
-                <ul>
-                    <li>Edad: 3 años</li>
-                    <li>Raza: Pastor Alemán</li>
-                    <li>Color: Café y negro</li>
-                    <li>Sexo: Hembra</li>
-                    <li>Salud: Vacunada, requiere dieta especial</li>
-                </ul>
-            </div>
-        </div>
+        <button id="add-pet-button">Agregar mascota</button>
+        <form id="add-pet-form" class="hidden">
+            <input type="text" id="pet-name" placeholder="Nombre" required>
+            <input type="number" id="pet-age" placeholder="Edad" required>
+            <input type="text" id="pet-breed" placeholder="Raza" required>
+            <input type="text" id="pet-color" placeholder="Color" required>
+            <select id="pet-sex" required>
+                <option value="">Sexo</option>
+                <option value="Macho">Macho</option>
+                <option value="Hembra">Hembra</option>
+            </select>
+            <input type="text" id="pet-health" placeholder="Salud" required>
+            <input type="url" id="pet-image" placeholder="URL de imagen" required>
+            <button type="submit">Guardar</button>
+        </form>
+        <div class="pet-list" id="pet-list"></div>
+    </section>
+
+    <section id="seguimiento">
+        <h2>Seguimiento</h2>
+        <div class="pet-list" id="adopted-list"></div>
     </section>
 
     <section id="tienda">
@@ -78,5 +64,6 @@
     <footer>
         <p>&copy; 2024 Adopción de Mascotas</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
