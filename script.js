@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             color: 'Café y negro',
             sex: 'Hembra',
             health: 'Vacunada, requiere dieta especial',
-            image: 'https://placebeahttps://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Pastor_aleman_a.jpg/960px-Pastor_aleman_a.jpgr.com/200/200'
+            image: 'https://www.purina.es/sites/default/files/styles/ttt_image_510/public/2024-02/sitesdefaultfilesstylessquare_medium_440x440public2022-07German20Shepherd20Dog1.jpg?itok=7Xg-W19h'
         }
     ];
 
