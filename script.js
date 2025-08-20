@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
             color: 'Negro',
             sex: 'Hembra',
             health: 'Vacunada y esterilizada',
-            image: 'https://place-puppy.com/200x200'
+            image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl-SGDEYRyUbUFmCZ8tvCS63J2Ghk7QR2z6A&s'
         },
         {
             name: 'Milo',
@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
             color: 'Blanco y naranja',
             sex: 'Macho',
             health: 'Vacunado, no esterilizado',
-            image: 'https://placekitten.com/200/200'
+            image: 'https://blog.terranea.es/wp-content/uploads/2022/12/perros-marrones-blancos.jpg'
         },
         {
             name: 'Bella',
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
             color: 'Café y negro',
             sex: 'Hembra',
             health: 'Vacunada, requiere dieta especial',
-            image: 'https://placebear.com/200/200'
+            image: 'https://placebeahttps://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Pastor_aleman_a.jpg/960px-Pastor_aleman_a.jpgr.com/200/200'
         }
     ];
 
